@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "roboto";
+  src: url(./assets/fonts/Roboto-Medium.woff2);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "roboto";
+}
+.container {
+  max-width: 100vw;
+  height: 100vh;
+  background-color: navy;
+  background-image: url(./assets/images/sunset.jpg);
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  /* background-attachment: fixed; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
